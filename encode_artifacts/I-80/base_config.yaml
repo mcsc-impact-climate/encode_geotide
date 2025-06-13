@@ -1,0 +1,136 @@
+chargers:
+  critical_battery_threshold: 15
+  locations:
+  - charging_power: 150
+    id: 59824cf3-ff27-479f-b804-08dd13aeb0fa
+    lat: 41.00318
+    lon: -76.456474
+    name: Bloomsburg, Pennsylvania, United States
+    voltage: 480
+  - charging_power: 150
+    id: 19261073-ad0a-4070-bb56-d5e189df4ad7
+    lat: 41.236095
+    lon: -80.81796
+    name: Warren, Ohio, United States
+    voltage: 480
+  - charging_power: 150
+    id: 103a34fc-98fe-409d-ab2b-4a9e294cb5f2
+    lat: 41.676373
+    lon: -86.25198
+    name: South Bend, Indiana, United States
+    voltage: 480
+  - charging_power: 150
+    id: b037c8b8-caf0-4d89-9ab6-e438c15461a2
+    lat: 41.522415
+    lon: -90.57705
+    name: Davenport, Iowa, United States
+    voltage: 480
+  - charging_power: 150
+    id: afdb053b-c4f2-44cf-a1eb-c761ad9031e3
+    lat: 41.25657
+    lon: -95.940956
+    name: Omaha, Nebraska, United States
+    voltage: 480
+  - charging_power: 150
+    id: 35a70d87-e356-468a-b1cf-a1ddda5156fe
+    lat: 41.135452
+    lon: -104.819885
+    name: Cheyenne, Wyoming, United States
+    voltage: 480
+  - charging_power: 150
+    id: 1fb6cee0-d191-4d1c-a00a-468c7539db08
+    lat: 41.585655
+    lon: -109.22057
+    name: Rock Springs, Wyoming, United States
+    voltage: 480
+  - charging_power: 150
+    id: 7fa0cb8f-04f8-488a-afa8-9f3305800b51
+    lat: 40.642212
+    lon: -116.9347
+    name: Battle Mountain, Nevada, United States
+    voltage: 480
+  - charging_power: 150
+    id: 118d20cc-1d33-4cf9-9ba5-d81d9fbb7508
+    lat: 39.52578
+    lon: -119.81292
+    name: Reno, Nevada, United States
+    voltage: 480
+  - charging_power: 150
+    id: 507bf214-b8d1-444d-94e6-97328b7508b5
+    lat: 37.779238
+    lon: -122.419359
+    name: San Francisco, California, United States
+    voltage: 480
+  - charging_power: 150
+    id: 56bb0b6c-04ac-4d53-a37a-fb5ce161e0ac
+    lat: 41.13383338601787
+    lon: -100.83624728489494
+    name: 6039 West a Street
+    voltage: 400
+  - charging_power: 150
+    id: 348e3ff1-e075-49e9-907d-c91f81317c60
+    lat: 40.75622585338681
+    lon: -113.19798644537195
+    name: Skull Valley
+    voltage: 400
+  midday_charge_amount: 30
+  midday_charger_id: 59824cf3-ff27-479f-b804-08dd13aeb0fa
+  midday_charging_threshold: 30
+  overnight_charge_threshold: 80
+  overnight_charger_id: 59824cf3-ff27-479f-b804-08dd13aeb0fa
+  overnight_end: 06:00
+  overnight_start: '18:00'
+routes:
+  geojson_path: /tmp/fleet-sim-dbmode/45d49054-dc6c-4a75-9df6-43a1e3dd6942/route.geojson
+  vehicle_assignments:
+    route:
+    - count: 1
+      daily_miles: 100
+      type: vehicle_d8d5b1d5-210b-485c-9f2b-7c55e42c002f
+  waypoints:
+  - - -74.005994
+    - 40.712749
+  - - -122.419359
+    - 37.779238
+simulation:
+  depot_location:
+  - 0
+  - 0
+  logging:
+    log_levels:
+    - ERROR
+    - WARNING
+    - INFO
+    - DEBUG
+    verbose_logging: false
+  mode: route
+  num_days: 1
+  routes_to_simulate:
+  - route
+  start_date: '2025-03-21'
+  use_current_date: true
+vehicle_types:
+  vehicle_d8d5b1d5-210b-485c-9f2b-7c55e42c002f:
+    auxiliary_power: 3.5
+    battery_capacity: 565
+    cargo_volume: 0
+    custom_parameters:
+      fifth_wheel_height: 1150
+      trailer_type: dry_van
+    drag_coefficient: 0.53
+    frontal_area: 9.5
+    ground_clearance: 240
+    hvac_power: 5
+    initial_soc: 90
+    max_range: 440
+    metadata:
+      make: Volvo
+      model: VNRe with 565 kWH
+      year: 2024
+    onboard_charger_amps: 250
+    passenger_capacity: 2
+    payload: 35500
+    rolling_resistance: 0.006
+    vehicle_mass: 15100
+    voltage: 800
+    wheel_size: 22.5

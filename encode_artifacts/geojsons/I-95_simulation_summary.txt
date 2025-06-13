@@ -1,0 +1,20 @@
+=== ROUTES ===
+Route 'route':
+  - Count: 1, Daily Miles: 100
+Waypoints: 2 defined
+
+=== SIMULATION SETTINGS ===
+Mode: route
+Start Date: 2025-06-12
+Number of Days: 1
+Use Current Date: True
+Routes to Simulate: route
+
+=== VEHICLE TYPES ===
+- Volvo VNRe with 565 kWH (2024):
+  Battery Capacity: 565 kWh
+  Max Range: 440 miles
+  Voltage: 800 V
+  Payload: 35500 kg
+  Drag Coeff.: 0.53, Rolling Resistance: 0.006
+  Frontal Area: 9.5 m^2, HVAC Power: 5 kW

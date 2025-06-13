@@ -1,0 +1,122 @@
+chargers:
+  critical_battery_threshold: 15
+  locations:
+  - charging_power: 150
+    id: 3d95a73e-8d1e-44fe-9906-8298dadfff31
+    lat: 39.952755
+    lon: -75.166855
+    name: Philadelphia, Pennsylvania, United States
+    voltage: 480
+  - charging_power: 150
+    id: 9bb732fd-23cb-499e-8dac-4c420d467a87
+    lat: 39.289642
+    lon: -76.6123
+    name: Baltimore, Maryland, United States
+    voltage: 480
+  - charging_power: 150
+    id: 33592ba6-62d5-40f1-b71d-68e0b6e8d72b
+    lat: 37.53587
+    lon: -77.43465
+    name: Richmond, Virginia, United States
+    voltage: 480
+  - charging_power: 150
+    id: 540b8144-4eb5-44b8-b257-254abf46b887
+    lat: 35.05251
+    lon: -78.878105
+    name: Fayetteville, North Carolina, United States
+    voltage: 480
+  - charging_power: 150
+    id: 94d6a164-10f1-4045-9eef-36f702267205
+    lat: 34.197235
+    lon: -79.76818
+    name: Florence, South Carolina, United States
+    voltage: 480
+  - charging_power: 150
+    id: 890d051a-e3fc-42be-9ee2-2001310565cb
+    lat: 32.08053
+    lon: -81.092575
+    name: Savannah, Georgia, United States
+    voltage: 480
+  - charging_power: 150
+    id: e965155b-f90a-4e79-8c7b-99e430fda84d
+    lat: 30.326471
+    lon: -81.65535
+    name: Jacksonville, Florida, United States
+    voltage: 480
+  - charging_power: 150
+    id: f42c1bce-992d-44d4-89bb-bbb959a273ce
+    lat: 28.54211
+    lon: -81.379036
+    name: Orlando, Florida, United States
+    voltage: 480
+  - charging_power: 150
+    id: 149d41bf-33f1-4fdc-be4c-78a8463f27da
+    lat: 25.773357
+    lon: -80.1919
+    name: Miami, Florida, United States
+    voltage: 480
+  midday_charge_amount: 60
+  midday_charger_id: 3d95a73e-8d1e-44fe-9906-8298dadfff31
+  midday_charging_threshold: 20
+  overnight_charge_threshold: 80
+  overnight_charger_id: 3d95a73e-8d1e-44fe-9906-8298dadfff31
+  overnight_end: 06:00
+  overnight_start: '18:00'
+routes:
+  geojson_path: /tmp/fleetsim-dbmode/037786a6-98bf-458a-98f6-10bbccd7b769/route.geojson
+  vehicle_assignments:
+    route:
+    - count: 1
+      daily_miles: 100
+      type: d8d5b1d5-210b-485c-9f2b-7c55e42c002f
+  waypoints:
+  - - -74.005994
+    - 40.712749
+  - - -80.1919
+    - 25.773357
+simulation:
+  depot_location:
+  - 0
+  - 0
+  logging:
+    log_levels:
+    - ERROR
+    - WARNING
+    - INFO
+    - DEBUG
+    verbose_logging: false
+  mode: route
+  num_days: 1
+  routes_to_simulate:
+  - route
+  speed_profile:
+    factor: 1
+    name: default
+  start_date: '2025-06-12'
+  temperature_profile: current
+  use_current_date: true
+vehicle_types:
+  d8d5b1d5-210b-485c-9f2b-7c55e42c002f:
+    auxiliary_power: 3.5
+    battery_capacity: 565
+    cargo_volume: 0
+    custom_parameters:
+      fifth_wheel_height: 1150
+      trailer_type: dry_van
+    drag_coefficient: 0.53
+    frontal_area: 9.5
+    ground_clearance: 240
+    hvac_power: 5
+    initial_soc: 90
+    max_range: 440
+    metadata:
+      make: Volvo
+      model: VNRe with 565 kWH
+      year: 2024
+    onboard_charger_amps: 250
+    passenger_capacity: 2
+    payload: 35500
+    rolling_resistance: 0.006
+    vehicle_mass: 15100
+    voltage: 800
+    wheel_size: 22.5

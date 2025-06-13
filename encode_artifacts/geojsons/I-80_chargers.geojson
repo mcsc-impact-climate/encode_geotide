@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "I-80_chargers",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 480, "id": "59824cf3-ff27-479f-b804-08dd13aeb0fa" }, "geometry": { "type": "Point", "coordinates": [ -76.456474, 41.00318 ] } },
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 480, "id": "19261073-ad0a-4070-bb56-d5e189df4ad7" }, "geometry": { "type": "Point", "coordinates": [ -80.81796, 41.236095 ] } },
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 480, "id": "103a34fc-98fe-409d-ab2b-4a9e294cb5f2" }, "geometry": { "type": "Point", "coordinates": [ -86.25198, 41.676373 ] } },
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 480, "id": "b037c8b8-caf0-4d89-9ab6-e438c15461a2" }, "geometry": { "type": "Point", "coordinates": [ -90.57705, 41.522415 ] } },
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 480, "id": "afdb053b-c4f2-44cf-a1eb-c761ad9031e3" }, "geometry": { "type": "Point", "coordinates": [ -95.940956, 41.25657 ] } },
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 480, "id": "35a70d87-e356-468a-b1cf-a1ddda5156fe" }, "geometry": { "type": "Point", "coordinates": [ -104.819885, 41.135452 ] } },
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 480, "id": "1fb6cee0-d191-4d1c-a00a-468c7539db08" }, "geometry": { "type": "Point", "coordinates": [ -109.22057, 41.585655 ] } },
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 480, "id": "7fa0cb8f-04f8-488a-afa8-9f3305800b51" }, "geometry": { "type": "Point", "coordinates": [ -116.9347, 40.642212 ] } },
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 480, "id": "118d20cc-1d33-4cf9-9ba5-d81d9fbb7508" }, "geometry": { "type": "Point", "coordinates": [ -119.81292, 39.52578 ] } },
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 480, "id": "507bf214-b8d1-444d-94e6-97328b7508b5" }, "geometry": { "type": "Point", "coordinates": [ -122.419359, 37.779238 ] } },
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 400, "id": "56bb0b6c-04ac-4d53-a37a-fb5ce161e0ac" }, "geometry": { "type": "Point", "coordinates": [ -100.836247284894938, 41.133833386017869 ] } },
+{ "type": "Feature", "properties": { "charging_power": 150, "voltage": 400, "id": "348e3ff1-e075-49e9-907d-c91f81317c60" }, "geometry": { "type": "Point", "coordinates": [ -113.197986445371953, 40.756225853386809 ] } }
+]
+}
