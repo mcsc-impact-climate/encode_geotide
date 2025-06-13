@@ -1,0 +1,7 @@
+pandas>=1.3
+geopandas>=0.12
+shapely>=2.0
+pyyaml>=6.0
+boto3>=1.24
+fiona>=1.8
+numpy>=1.21
